@@ -9,7 +9,7 @@ variables:
   azureServiceConnection: 'vs-enterprise'
   resourceGroupName: 'bicep-registry-01'
   location: 'uksouth'
-  templateFile: './main.bicep'
+  templateFile: './regisgtry.bicep'
 pool:
   vmImage: $(vmImageName)
 
