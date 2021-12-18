@@ -7,7 +7,7 @@ variables:
   vmImageName: 'ubuntu-latest'
 
   azureServiceConnection: 'vs-enterprise'
-  resourceGroupName: 'exampleRG'
+  resourceGroupName: 'bicep-registry-01'
   location: 'uksouth'
   templateFile: './main.bicep'
 pool:
