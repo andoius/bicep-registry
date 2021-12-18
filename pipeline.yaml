@@ -6,7 +6,7 @@ name: Deploy Bicep files
 variables:
   vmImageName: 'ubuntu-latest'
 
-  azureServiceConnection: 'andoius'
+  azureServiceConnection: 'vs-enterprise'
   resourceGroupName: 'exampleRG'
   location: 'uksouth'
   templateFile: './main.bicep'
